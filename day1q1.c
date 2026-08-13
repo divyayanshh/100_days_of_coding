@@ -1,19 +1,12 @@
+\\write a program to take two numbers from the user and add them
 #include <stdio.h>
-
 int main() {
     int a, b, sum;
-
-    // Input two numbers
     printf("Enter first number: ");
     scanf("%d", &a);
-
     printf("Enter second number: ");
     scanf("%d", &b);
-
-    // Calculate sum
     sum = a + b;
-
-    // Display result
     printf("Sum = %d\n", sum);
 
     return 0;
